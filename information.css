@@ -1,0 +1,67 @@
+h1{
+  font-family:"Brush Scrip M7", cursive;
+  font-weight:bold;
+  font-size:60px;
+}
+
+#banner{
+  background-image: url("images/town.jpg");
+  color:lightblue;
+  background-size:100% 100%;
+  padding:150px;
+  text-align:center;
+}
+
+nav{
+  background-color:deepskyblue;
+  text-align:center;
+  padding:20px;
+}
+
+nav a{
+  color:black;
+  font-family:arial;
+  font-weight:bold;
+  text-decoration:none;
+  margin:0 10px 0 10px;
+}
+
+nav a:hover{
+  background-color:red;
+  text-decoration:underline;
+  padding:20px;
+}
+
+.foods{
+	text-align:center;
+	background-color:orange;
+}
+
+.culture{
+	text-align:center;
+	background-color:yellow;
+}
+
+.famous{
+	text-align:center;
+	background-color:lightblue;
+}
+
+.container div {
+	display:flex;
+	flex:1;
+	background-color:black;
+}
+
+.left{
+	float:left;
+}
+
+.right p{
+	float:right;
+	gap:1000px;
+	font-size:35px;
+	background-color:lightblue;
+	color:green;
+	font-family:"Courier New", sans-serif;
+}
